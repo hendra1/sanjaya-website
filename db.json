@@ -1,13 +1,31 @@
 {
-  "@odata.context":"http://sanjaya-svr01.www.sanjaya.com:7708/ODATA/ODataV4/$metadata#Collection(NAV.LocationWeb)","value":[
+  "posts": [
     {
-      "@odata.etag":"W/\"JzQ0O0RnQUFBQUo3LzBrQVRnQXRBRlFBVWdCQkFFNEFVd0JKQUZRQUFBQUFBQT09OTsxNjk5NzEzMTIwOyc=\"","Code":"IN-TRANSIT","Name":"Warehouse Intransit","Address":"","Address_2":"","City":"","Phone_No":"","Post_Code":"","County":"","Longitude":"","Latitude":"","ETag":"44;DgAAAAJ7/0kATgAtAFQAUgBBAE4AUwBJAFQAAAAAAA==9;1699713120;"
-    },{
-      "@odata.etag":"W/\"JzMyO0RnQUFBQUo3LzFBQVFRQkNBRklBU1FCTEFBQUFBQUE9OTsxODAwMzE3OTEwOyc=\"","Code":"PABRIK","Name":"Warehouse Pabrik","Address":"Tangerang","Address_2":"84415151","City":"Jakarta","Phone_No":"0215524755","Post_Code":"15","County":"","Longitude":"","Latitude":"","ETag":"32;DgAAAAJ7/1AAQQBCAFIASQBLAAAAAAA=9;1800317910;"
-    },{
-      "@odata.etag":"W/\"JzI4O0RnQUFBQUo3LzFBQVVBQXRBRFVBTlFBQUFBQUE5OzIyNjE0NzYzMTA7Jw==\"","Code":"PP-55","Name":"Pasar Pagi No 55","Address":"Petak Baru","Address_2":"","City":"Jakarta","Phone_No":"","Post_Code":"","County":"","Longitude":"","Latitude":"","ETag":"28;DgAAAAJ7/1AAUAAtADUANQAAAAAA9;2261476310;"
-    },{
-      "@odata.etag":"W/\"JzI4O0RnQUFBQUo3LzFRQVR3QkxBRThBQUFBQUFBPT05OzE2OTk3MTMxNDA7Jw==\"","Code":"TOKO","Name":"Warehouse Toko","Address":"Petak Baru","Address_2":"","City":"Jakarta","Phone_No":"+6221-6600176","Post_Code":"","County":"","Longitude":"","Latitude":"","ETag":"28;DgAAAAJ7/1QATwBLAE8AAAAAAA==9;1699713140;"
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
     }
-  ]
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
